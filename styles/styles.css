@@ -24,23 +24,39 @@ Table of Contents:
     box-sizing: border-box;
 }
 
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+
 button {
     background-color: #1C2B32;
     color: white;
-    padding: 15px;
+    padding: 25px;
     border: none;
     margin-left: -5px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 input {
     border: 2px solid #1C2B32;
-    padding: 13px;
+    padding: 23px;
+    font-size: 16px;
+    width: 260px;
+    background-color: rgba(0,0,0,0%);
 }
 
 label {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 200;
-    line-height: 30px;
+    line-height: 80px;
 }
 
 /*////////////////////////
@@ -54,6 +70,11 @@ h1, h2, h3, h4, h5, h6, p, form {
     color: #1C2B32;
 }
 
+p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
 /*////////////////////////
     3. Areas
 ////////////////////////*/
@@ -64,6 +85,18 @@ h1, h2, h3, h4, h5, h6, p, form {
 
 .header {
     text-align: center;
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: top -160px right 0;
+    height: 700px;
+    position: relative;
+}
+
+.header-content {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 90px;
 }
 
 .header h1 {
@@ -71,14 +104,9 @@ h1, h2, h3, h4, h5, h6, p, form {
     font-weight: 700;
 }
 
-.header p {
-    font-size: 14px;
-    font-weight: 200;
-}
-
 .check-domain-button {
-    border-top-right-radius: 15% 50%;
-    border-bottom-right-radius: 15% 50%;
+    border-top-right-radius: 17% 50%;
+    border-bottom-right-radius: 17% 50%;
 }
 
 .check-domain-input {
@@ -86,12 +114,19 @@ h1, h2, h3, h4, h5, h6, p, form {
     border-bottom-left-radius: 14% 50%;
 }
 
+
 /*///////////// 3.2 Testimonial /////////////*/
 
 
 
 /*///////////// 3.3 Support /////////////*/
 
+.support img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
 
 
 /*///////////// 3.4 Faq /////////////*/
@@ -99,3 +134,11 @@ h1, h2, h3, h4, h5, h6, p, form {
 
 
 /*///////////// 3.5 Footer /////////////*/
+
+.copyright {
+    text-align: center;
+    padding: 25px;
+    background-color: #1C2B32;
+    color: white;
+
+}
