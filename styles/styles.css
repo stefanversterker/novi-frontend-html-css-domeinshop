@@ -32,11 +32,17 @@ main {
 button {
     background-color: #1C2B32;
     color: white;
-    padding: 25px;
-    border: none;
+    padding: 23px;
+    border: 2px solid #1C2B32;
     margin-left: -5px;
     font-size: 16px;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #1C2B32;
+    border: 2px solid #1C2B32;
 }
 
 input {
