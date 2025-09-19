@@ -13,7 +13,8 @@
 
         <form onsubmit="hebben-we-javascript-voor-nodig">
             <label for="domain-check">Jouw domeinnaam registreren in slechts 1 minuut!</label><br>
-            <input class="check-domain-input" id="domain-check" type="text" placeholder="Is jouw domein nog vrij&#63"/>
+            <input class="check-domain-input" id="domain-check" type="text" placeholder="Is jouw domein nog vrij&#63"
+                   name="domain-availability-check"/>
             <button class="check-domain-button" type="button">Check beschikbaarheid</button>
         </form>
     </div>
@@ -26,24 +27,28 @@
         <h2>Wat zeggen klanten over ons</h2>
 
         <article class="testimonial-space">
-            <div class="testimonial-content">
+            <figure class="testimonial-content">
                 <img class="quote" src="assets/icons/quote-left.png" alt="quote left"/>
-                <p class="testimonial-message">Al jaren klant bij Domein.shop. De service is goed en medewerkers zijn
+                <blockquote class="testimonial-message">Al jaren klant bij Domein.shop. De service is goed en
+                    medewerkers zijn
                     zeer klantvriendelijk. Snelle
-                    response, zelfs op momenten dat je het niet verwacht.</p>
-                <img class="testimonial-pic" src="assets/images/avatar-jane.png" alt="Jane Doe"/>
-                <p class="quote-name">Jane Doe, Managing Director</p>
-            </div>
+                    response, zelfs op momenten dat je het niet verwacht.
+                </blockquote>
+                <img class="testimonial-pic" src="assets/images/avatar-jane.png" alt="profile picture of jane doe"/>
+                <figcaption class="quote-name">Jane Doe, Managing Director</figcaption>
+            </figure>
         </article>
 
         <article class="testimonial-space">
-            <div class="testimonial-content">
+            <figure class="testimonial-content">
                 <img class="quote" src="assets/icons/quote-left.png" alt="quote left"/>
-                <p class="testimonial-message">Ik ben tevreden over Domein.shop. Met name de snelle reactie op mijn
-                    vragen en goede service maakt dat ik TransIP aan iedereen aanbeveel.</p>
-                <img class="testimonial-pic" src="assets/images/avatar-john.png" alt="John Smith" />
-                <p class="quote-name">John Smith, Frontend Developer</p>
-            </div>
+                <blockquote class="testimonial-message">Ik ben tevreden over Domein.shop. Met name de snelle reactie op
+                    mijn
+                    vragen en goede service maakt dat ik TransIP aan iedereen aanbeveel.
+                </blockquote>
+                <img class="testimonial-pic" src="assets/images/avatar-john.png" alt="profile picture of john smith"/>
+                <figcaption class="quote-name">John Smith, Frontend Developer</figcaption>
+            </figure>
         </article>
 
     </section>

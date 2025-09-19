@@ -34,7 +34,6 @@ button {
     color: white;
     padding: 23px;
     border: 2px solid #1C2B32;
-    margin-left: -5px;
     font-size: 16px;
     cursor: pointer;
 }
@@ -71,16 +70,22 @@ a {
     2. Typography
 ////////////////////////*/
 
-h1, h2, h3, h4, h5, h6, p, form, details {
+h1, h2, h3, h4, h5, h6, p, form, details, figcaption, blockquote {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #1C2B32;
 }
 
-p {
+p, blockquote {
     font-size: 14px;
     font-weight: 400;
+}
+
+figcaption {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 h1 {
@@ -133,6 +138,10 @@ details {
 .check-domain-input {
     border-top-left-radius: 36px;
     border-bottom-left-radius: 36px;
+}
+
+.header button {
+    margin-left: -7px;
 }
 
 
